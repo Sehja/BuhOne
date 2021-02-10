@@ -61,5 +61,45 @@
         text-transform: uppercase;
         font-size: 14px;
         font-weight: 700;
+        &:hover {
+            color: $color-blue;
+        }
+    }
+}
+
+.header__bottom {
+    &-bg {
+        padding: 170px 0 300px;
+        background-image: url(/images/background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &-title {
+        font-family: 'Merriweather',
+        serif;
+        font-weight: 700;
+        font-size: 48px;
+        color: $color-white;
+        max-width: 54%;
+        margin-bottom: 80px;
+    }
+
+    &-link {
+        text-decoration: none;
+        padding: 19px 50px;
+        color: $color-white;
+        background-color: $color-blue;
+        font-family: 'Lato',
+        sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        margin-bottom: 120px;
+        transition: all .1s;
+
+        &:hover {
+            background: rgba($color-blue, .7);
+        }
     }
 }
