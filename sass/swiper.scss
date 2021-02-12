@@ -3,6 +3,10 @@
     text-align: left;
 }
 
+.swiper-pagination-wrapper {
+    margin-top: 100px;
+}
+
 .swiper-pagination-bullet {
     background: #fff;
     bottom: 114px;
@@ -22,7 +26,6 @@
     &:hover {
         background: rgba($color-white, .5);
     }
-    &::before,
     &::after {
         color: $color-white;
         font-size: 15px;
@@ -38,4 +41,55 @@
 
 .swiper-button-next {
     right: 0;
+}
+
+.swiper-container-2 {
+    overflow: hidden;
+}
+
+.swiper-button-wrapper {
+    display: flex;
+}
+
+.swiper-button-prev-2,
+.swiper-button-next-2 {
+    background-color: $color-blue;
+    font-size: 25px;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    outline: none;
+
+    &:hover {
+        background-color: rgba($color-blue, .4);
+    }
+}
+
+// .swiper-button-prev-2 {
+//     right: 0;
+//     left: auto;
+// }
+
+// .swiper-button-next-2 {
+//     right: 0;
+//     margin-right: 0;
+// }
+
+
+
+.swiper-pagination-bullet-2 {
+    background-color: $color-blue;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: .3;
+
+    &:not(:first-child) {
+        margin-left: 50px;
+    }
+}
+
+.swiper-pagination-bullet-active-2 {
+    opacity: .8;
 }

@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper-container', {
+var swiper = new Swiper('.swiper-container', {
   // Optional parameters
   direction: 'horizontal',
   loop: true,
@@ -14,9 +14,27 @@ const swiper = new Swiper('.swiper-container', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
+});
 
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
+var swiper = new Swiper('.swiper-container-2', {
+  // Optional parameters
+  direction: 'horizontal',
+  slidesPerView: '4',
+  loop: true,
+
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination-2',
+    clickable: 'true',
+    bulletClass: 'swiper-pagination-bullet-2',
+    bulletActiveClass: 'swiper-pagination-bullet-active-2',
+
   },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next-2',
+    prevEl: '.swiper-button-prev-2',
+  }
 });
