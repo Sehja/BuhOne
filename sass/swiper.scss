@@ -6,6 +6,8 @@
 .swiper-pagination-bullet {
     background: #fff;
     bottom: 114px;
+    width: 10px;
+    height: 10px;
     &:not(:first-child) {
         margin-left: 50px;
     }

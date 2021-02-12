@@ -1,0 +1,60 @@
+.about {
+    background-color: $color-white;
+    padding: 140px 0 140px;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__descr {
+        display: inline-block;
+        width: 45%;
+    }
+
+    &__preview {
+        display: inline-flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+
+    &__block {
+        padding: 25px 60px 30px 30px;
+        width: 40%;
+        margin: 10px;
+        cursor: pointer;
+        transition: all .1s;
+
+        background-color: $color-grey-light;
+        &:hover {
+            background-color: $color-blue;
+            * {
+                color: $color-white;
+            }
+        }
+    }
+
+    &__volume {
+        font-size: 55px;
+        font-weight: 900;
+    }
+
+    &__text {
+        font-size: 14px;
+        font-weight: 700;
+        color: $color-black;
+        margin-top: 20px;
+    }
+
+    &__link {
+        font-size: 14px;
+        font-weight: 700;
+        color: $color-blue;
+        margin-top: 30px;
+        display: inline-block;
+        &:hover {
+            opacity: .7;
+        }
+    }
+}
