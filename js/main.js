@@ -1,3 +1,6 @@
+/////////// SWIPER-SLIDER ///////////
+
+
 var swiper = new Swiper('.swiper-container', {
   // Optional parameters
   direction: 'horizontal',
@@ -38,3 +41,7 @@ var swiper = new Swiper('.swiper-container-2', {
     prevEl: '.swiper-button-prev-2',
   }
 });
+
+
+
+/////////// SWIPER-SLIDER FINISH ///////////
