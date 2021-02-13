@@ -10,7 +10,7 @@
     }
 
     &__block {
-        background: url(./images/bg-offer.png);
+        background: url(../images/bg-offer.png);
         background-size: cover;
         background-repeat: no-repeat;
         flex: 0 0 32%;
@@ -20,8 +20,7 @@
 
         &:hover {
             background: linear-gradient(0deg, rgba(0, 95, 163, 0.65), rgba(0, 95, 163, 0.65)),
-            url(4.jpg),
-            url(/images/bg-offer.png);
+            url(../images/bg-offer.png);
             background-size: cover;
             background-repeat: no-repeat;
         }
