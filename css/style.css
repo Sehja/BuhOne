@@ -54,7 +54,7 @@ body {
   .swiper-button-next::after {
     color: #ffffff;
     font-size: 15px;
-    opacity: .8; }
+    opacity: 0.8; }
 
 .swiper-button-prev {
   right: 0;
@@ -89,17 +89,16 @@ body {
   height: 10px;
   border-radius: 50%;
   display: inline-block;
-  opacity: .3;
+  opacity: 0.3;
   cursor: pointer;
   outline: none; }
   .swiper-pagination-bullet-2:not(:first-child) {
     margin-left: 50px; }
 
 .swiper-pagination-bullet-active-2 {
-  opacity: .8; }
+  opacity: 0.8; }
 
 .swiper-container-3 {
-  overflow: hidden;
   background-color: #EBEBEB;
   padding: 45px 95px 80px;
   margin-top: 80px; }
@@ -125,14 +124,14 @@ body {
   height: 10px;
   border-radius: 50%;
   display: inline-block;
-  opacity: .3;
+  opacity: 0.3;
   cursor: pointer;
   outline: none; }
   .swiper-pagination-bullet-3:not(:first-child) {
     margin-left: 50px; }
 
 .swiper-pagination-bullet-active-3 {
-  opacity: .8; }
+  opacity: 0.8; }
 
 .header {
   padding: 21px 0 31px; }
@@ -317,7 +316,7 @@ body {
     font-size: 18px;
     font-weight: 300; }
   .feedback__person {
-    margin-top: 58px;
+    margin-top: 59px;
     display: flex;
     align-items: center; }
   .feedback__pic {
@@ -329,3 +328,5 @@ body {
   .feedback__profi {
     font-size: 14px;
     font-weight: 400; }
+  .feedback__wrapper-slider {
+    overflow: hidden; }
