@@ -145,7 +145,7 @@ body {
 
 .header__bottom-bg {
   padding: 170px 0 300px;
-  background-image: url(/images/background.png);
+  background-image: url(./images/background.png);
   background-repeat: no-repeat;
   background-size: cover; }
 
@@ -215,7 +215,7 @@ body {
     flex-wrap: wrap;
     margin-top: 102px; }
   .offer__block {
-    background: url(/images/bg-offer.png);
+    background: url(./images/bg-offer.png);
     background-size: cover;
     background-repeat: no-repeat;
     flex: 0 0 32%;
