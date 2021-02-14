@@ -1,0 +1,113 @@
+.footer {
+  background: url(/images/background.png);
+
+  &__wrapper {
+    padding: 122px 0 140px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__p {
+    font-size: 18px;
+    color: $color-white;
+    opacity: 0.8;
+    font-weight: 300;
+    margin-top: 60px;
+  }
+
+  &__contacts-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 79px;
+  }
+
+  &__contacts-item {
+    display: flex;
+    align-items: center;
+  }
+
+  &__contacts-item:first-child {
+    margin-right: 40px;
+  }
+
+  &__link {
+    color: $color-white;
+    font-size: 21px;
+    font-weight: 300;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  img {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  &__mail {
+    width: 30px;
+  }
+
+  input {
+    background: transparent;
+    outline: none;
+    color: $color-white;
+    padding-top: 15px;
+    font-size: 21px;
+  }
+
+  &__name,
+  &__surname {
+    border: none;
+    border-bottom: 1px solid $color-white;
+  }
+
+  &__label {
+    font-size: 16px;
+    font-weight: 400;
+    color: $color-white;
+    display: inline-block;
+    padding-bottom: 15px;
+  }
+
+  &__label-message {
+    font-size: 16px;
+    font-weight: 400;
+    color: $color-white;
+    display: inline-block;
+    width: 100%;
+    margin-top: 35px;
+  }
+
+  &__message {
+    border: none;
+    border-bottom: 1px solid $color-white;
+    width: 100%;
+    padding-bottom: 84px;
+    background: transparent;
+    font-size: 21px;
+    color: $color-white;
+    outline: none;
+  }
+
+  &__bottom {
+    padding: 50px 0 40px;
+    background-color: $color-white;
+
+    &-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  &__copyright {
+    font-size: 14px;
+    color: $color-black;
+    font-weight: 300;
+  }
+
+  &__author {
+    font-size: 14px;
+    font-weight: 300;
+    color: $color-black;
+  }
+}
