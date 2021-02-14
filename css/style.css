@@ -332,7 +332,7 @@ body {
     overflow: hidden; }
 
 .footer {
-  background: url(./images/background.png); }
+  background: url(../images/background.png); }
   .footer__wrapper {
     padding: 122px 0 140px;
     display: flex;
