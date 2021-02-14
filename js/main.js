@@ -46,7 +46,7 @@ var swiper = new Swiper('.swiper-container-2', {
 
 
 
-var swiper = new Swiper('.swiper-container-3', {
+var swiper = new Swiper('.feedback__wrapper-slider', {
   // Optional parameters
   direction: 'horizontal',
   slidesPerView: '1',
